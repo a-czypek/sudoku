@@ -1,6 +1,11 @@
 # Sudoku
 Projekt jest implementacją popularnej gry logicznej Sudoku w języku C. Program umożliwia rozgrywkę na różnych poziomach trudności i rozmiarach planszy.
 
+
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
+![CLion](https://img.shields.io/badge/CLion-black?style=for-the-badge&logo=clion&logoColor=white)
+
 ## Kluczowe funkcjonalności:
 
 ### 1. Generowanie plansz:
@@ -33,7 +38,7 @@ Projekt jest implementacją popularnej gry logicznej Sudoku w języku C. Program
 Algorytm, który pozwala na tasowanie skończonej sekwencji. Generuje nieobciążoną permutację: każda permutacja jest równie prawdopodobna, co gwarantuje równomierny rozkład permutacji
 
 #### **Backtracking**: 
-Wykorzystany do wypełnienia pustych pól generowanejk planszy oraz do liczenia i znajdowania rozwiązań. Rekurencyjnie próbuje każdą dopuszczalną liczbę i cofa się przy konflikcie.
+Wykorzystany do wypełnienia pustych pól generowanej planszy oraz do liczenia i znajdowania rozwiązań. Rekurencyjnie próbuje każdą dopuszczalną liczbę i cofa się przy konflikcie.
 
 ## Działanie Programu
 ### Nowa gra
